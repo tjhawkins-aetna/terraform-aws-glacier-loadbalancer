@@ -1,0 +1,32 @@
+# Compiled files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+*.terraform.lock.hcl
+.terraform-version
+
+# Directories
+.terraform/
+.vagrant/
+
+# SSH Keys
+*.pem
+
+# Backup files
+*.bak
+
+# Ignored Terraform files
+*gitignore*.tf
+
+# Ignore secrets
+*secrets.tfvars
+
+# Ignore DS_STORE dir
+*.DS_Store
+
+# IDEs, Tools
+.idea/
+changed_file.txt
+*.idea
+.idea
+.vscode

@@ -1,0 +1,10 @@
+# This is a comment.
+# Each line is a file pattern followed by one or more owners.
+
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence,
+# @global-owner1 and @global-owner2 will be requested for
+# review when someone opens a pull request.
+# The following line is an example of how to format the list of codeowners
+# remove the trailing comment but leave the "*", and modify the list with git handles
+* @aetnahealth/glacier
